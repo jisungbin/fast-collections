@@ -453,6 +453,13 @@ public inline fun <T> List<T>.fastFirst(predicate: (T) -> Boolean): T {
   throw NoSuchElementException("Collection contains no element matching the predicate.")
 }
 
+public fun <T> List<T>.fastCount(predicate: (T) -> Boolean): Int {
+  contract { callsInPlace(predicate) }
+  var count = 0
+  fastForEach { if (predicate(it)) count++ }
+  return count
+}
+
 /**
  * Appends the string from all the elements separated using [separator] and using the given
  * [prefix] and [postfix] if supplied.
