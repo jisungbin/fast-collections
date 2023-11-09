@@ -9,6 +9,10 @@ dependencies {
 }
 ```
 
+#### Support operators
+
+Please see [functions.md](functions.md).
+
 #### License
 
 This code copied from...

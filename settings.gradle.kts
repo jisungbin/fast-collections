@@ -22,3 +22,5 @@ buildCache {
     removeUnusedEntriesAfterDays = 7
   }
 }
+
+include(":ksp")
