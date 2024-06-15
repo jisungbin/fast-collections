@@ -17,10 +17,4 @@ dependencyResolutionManagement {
   }
 }
 
-buildCache {
-  local {
-    removeUnusedEntriesAfterDays = 7
-  }
-}
-
 include(":ksp")

@@ -8,4 +8,5 @@
 !/.idea/inspectionProfiles
 *.iml
 .gradle
+.kotlin
 build

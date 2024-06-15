@@ -1,11 +1,6 @@
 plugins {
   kotlin("jvm")
-  id("com.google.devtools.ksp") version "1.9.20-1.0.14"
-}
-
-ksp {
-  arg("autoserviceKsp.verify", "true")
-  arg("autoserviceKsp.verbose", "true")
+  id("com.google.devtools.ksp") version "2.0.0-1.0.22"
 }
 
 dependencies {

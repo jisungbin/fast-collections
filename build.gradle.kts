@@ -1,7 +1,7 @@
 plugins {
-  kotlin("jvm") version "1.9.20"
-  id("com.vanniktech.maven.publish") version "0.25.3"
-  // id("com.google.devtools.ksp") version "1.9.20-1.0.14"
+  kotlin("jvm") version "2.0.0"
+  id("com.vanniktech.maven.publish") version "0.28.0"
+  // id("com.google.devtools.ksp") version "2.0.0-1.0.22"
 }
 
 kotlin {
